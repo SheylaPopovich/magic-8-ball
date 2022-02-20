@@ -1,12 +1,17 @@
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
-body {
-  min-height: 100vh;
-  background-color: black;
+
+body,
+html {
+  background-color: #0a0a0a;
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
   color: white;
+  width: 100vw;
 }
 
 #response {
@@ -14,10 +19,17 @@ body {
 }
 
 #landingPic {
-  background-image: url(../images/8ball.jpg);
+  background-image: url("../images/8ball.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  position: relative;
   height: 100%;
+  width: 100%;
+  padding-top: 5%;
+
+}
+
+#enterSite{
+    text-align: center;
 }
