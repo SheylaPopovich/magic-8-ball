@@ -36,11 +36,13 @@ html {
   background-color: none;
 }
 
-#buttonContainer{
-    background-color: transparent;
+#buttonContainer {
+  background-color: transparent;
 }
 
 #button {
-    background-color: #6C9FEA;
-    border-color: #6C9FEA;
+  background-color: #6c9fea;
+  border-color: #6c9fea;
+  font-family: "Bungee Shade", cursive;
+  color: white;
 }
