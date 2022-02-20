@@ -6,18 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/css/style.css" rel="stylesheet"></link>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>MAGIC 8 BALL</title>
 </head>
 <body>
 <div id="landingPic">
        <h1>MAGIC 8 BALL</h1>
+
+       <div class="container">
+        <div class="notification" id="buttonContainer">
+            <button class="button is-medium is-responsive" id="button">
+                See My Future
+              </button>
+        </div>
+      </div>
+
       <input type="button" value="show" onclick="eightBallResponse()" />
     <input type="text" value="" id="eightBallResponse" />
-    <div id="enterSite">
-        <div id="center">
-            <button class="button is-light">Light</button>
-        </div>
+  
+            
+    
     </div>
+
+
+
+
+    
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

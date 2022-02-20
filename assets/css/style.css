@@ -29,51 +29,18 @@ html {
   padding-top: 5%;
 }
 
-#enterSite {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-  /* margin-top: 15%; */
+.notification {
+  text-align: center;
+  align-items: center;
+  margin-top: 35%;
+  background-color: none;
 }
 
-#center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
+#buttonContainer{
+    background-color: transparent;
 }
 
-/* button {
-  margin: auto; 
-  margin-top: 14%;
-} */
-
-
-
-@media screen and (max-width: 1110px) {
-    #enterSite {
-    margin-top: 40%;
-
+#button {
+    background-color: #6C9FEA;
+    border-color: #6C9FEA;
 }
-}
-
-/* @media screen and (max-width: 910px) {
-    #enterSite  {
-        margin-top: 29%;
-    
-  }
-} */
-
-/* @media screen and (max-width: 810px) {
-    #enterSite  {
-        margin-top: 29%;
-
-  }
-} */
-/* @media screen and (max-width: 375px) {
-    #enterSite {
-    margin-top: 200%;
-  }
-}  */
