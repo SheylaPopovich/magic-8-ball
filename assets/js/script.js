@@ -1,13 +1,13 @@
-console.log("This is Linked!");
 
-let userName = "";
+
+let userName = "Sheyla";
 let userQuestion = "when will I get married";
-const randomNumber = Math.floor(Math.random() * 8);
-const eightBall = "";
+let randomNumber = Math.floor(Math.random() * 8);
+let eightBall = "";
 
-console.log(`${userName} is asking `);
+// console.log(`${userName} is asking `);
 
-switch (condition) {
+switch(randomNumber){
   case 0:
     eightBall = "It is certain.";
     break;
@@ -69,3 +69,6 @@ switch (condition) {
     eightBall = "Very doubtful.";
     break;
 }
+
+
+console.log(`The eight ball answered: ${eightBall}`); 
