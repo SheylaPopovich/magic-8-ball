@@ -25,3 +25,11 @@ function eightBallResponse() {
   document.getElementById("eightBallResponse").value =
     ballResponses[Math.floor(Math.random() * ballResponses.length)];
 }
+
+
+
+var button = document.getElementById("enter");
+
+button.addEventListener("click", function(){
+    document.location.href = "https://github.com/SheylaPopovich/magic-8-ball/blob/9aceabb7e47743443e723134feaeb59c4ba8eddd/magic8ball.html";
+});
