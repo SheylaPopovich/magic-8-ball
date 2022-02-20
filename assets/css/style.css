@@ -47,6 +47,13 @@ html {
   color: white;
 }
 
+#startBtn {
+  background-color: transparent;
+  border-color: #6c9fea;
+  font-family: "Bungee Shade", cursive;
+  color: white;
+}
+
 #title {
   color: white;
   font-family: "Bungee Shade", cursive;
