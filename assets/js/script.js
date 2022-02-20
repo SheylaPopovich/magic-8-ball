@@ -1,18 +1,24 @@
-let userName = "Sheyla";
-let userQuestion = "when will I get married";
-let randomNumber = Math.floor(Math.random() * 8);
-let eightBall = "";
-let answer = document.querySelector("response");
+// let userName = "Sheyla";
+// let userQuestion = "when will I get married";
+// let randomNumber = Math.floor(Math.random() * 8);
+// let eightBall = "";
 
-let ballResponses = ["It is certain.", "It is decidedly so.", "Without a doubt."];
 
-let shake = document.querySelector("#shake");
+// let answer = document.querySelector("response");
+
+let ballResponses = [
+  "It is certain.",
+  "It is decidedly so.",
+  "Without a doubt."
+];
+
+// let shake = document.querySelector("#shake");
 // console.log(`${userName} is asking `);
 
-shake.addEventListener("click", function () {
-  document.getElementById("response").value =
-    response[Math.floor(Math.random())];
-});
+function eightBallResponse() {
+  document.getElementById("responseBox").value =
+    ballResponses[Math.floor(Math.random() * ballResponses.length)];
+}
 
 // console.log(`The eight ball answered: ${eightBall}`);
 
