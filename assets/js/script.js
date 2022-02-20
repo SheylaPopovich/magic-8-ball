@@ -26,4 +26,46 @@ switch (condition) {
   case 5:
     eightBall = "As I see it, yes.";
     break;
+  case 6:
+    eightBall = "Most likely.";
+    break;
+  case 7:
+    eightBall = "Outlook good.";
+    break;
+  case 8:
+    eightBall = "Yes.";
+    break;
+  case 9:
+    eightBall = "Signs point to yes";
+    break;
+  case 10:
+    eightBall = "Reply hazy, try again.";
+    break;
+  case 11:
+    eightBall = "Ask again later.";
+    break;
+  case 12:
+    eightBall = "Better not tell you now.";
+    break;
+  case 13:
+    eightBall = "Cannot predict now.";
+    break;
+  case 13:
+    eightBall = "Concentrate and ask again.";
+    break;
+  case 14:
+    eightBall = "Don't count on it.";
+    break;
+  case 15:
+    eightBall = "My reply is no.";
+    break;
+  case 16:
+    eightBall = "My sources say no.";
+    break;
+  case 17:
+    eightBall = "Outlook not so good.";
+    break;
+  case 18:
+    eightBall = "Very doubtful.";
+    break;
 }
