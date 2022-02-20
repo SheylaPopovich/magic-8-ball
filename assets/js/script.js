@@ -1,5 +1,3 @@
-
-
 let userName = "Sheyla";
 let userQuestion = "when will I get married";
 let randomNumber = Math.floor(Math.random() * 8);
@@ -7,7 +5,7 @@ let eightBall = "";
 
 // console.log(`${userName} is asking `);
 
-switch(randomNumber){
+switch (randomNumber) {
   case 0:
     eightBall = "It is certain.";
     break;
@@ -70,5 +68,4 @@ switch(randomNumber){
     break;
 }
 
-
-console.log(`The eight ball answered: ${eightBall}`); 
+console.log(`The eight ball answered: ${eightBall}`);
