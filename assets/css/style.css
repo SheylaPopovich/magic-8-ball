@@ -32,7 +32,7 @@ html {
 .notification {
   text-align: center;
   align-items: center;
-  margin-top: 35%;
+  margin-top: 30%;
   background-color: none;
 }
 
@@ -41,8 +41,16 @@ html {
 }
 
 #button {
-  background-color: #6c9fea;
+  background-color: transparent;
   border-color: #6c9fea;
   font-family: "Bungee Shade", cursive;
   color: white;
+}
+
+#title {
+  color: white;
+  font-family: "Bungee Shade", cursive;
+  align-items: center;
+  text-align: center;
+  font-size: 8vh;
 }
