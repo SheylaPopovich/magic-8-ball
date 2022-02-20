@@ -1,12 +1,23 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: black;
-    color: white;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 #response {
-    color: white;
+  color: white;
 }
 
-#landingPic{
-    background-image: url(../images/8ball.jpg);
+#landingPic {
+  background-image: url(../images/8ball.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
