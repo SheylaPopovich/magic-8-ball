@@ -3,6 +3,8 @@ let userQuestion = "when will I get married";
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = "";
 
+
+let shake = document.querySelector("#shake");
 // console.log(`${userName} is asking `);
 
 switch (randomNumber) {
