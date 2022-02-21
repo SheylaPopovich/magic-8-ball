@@ -26,3 +26,4 @@ function eightBallResponse() {
     ballResponses[Math.floor(Math.random() * ballResponses.length)];
 }
 
+let inputName = document.getElementsByClassName('input');
