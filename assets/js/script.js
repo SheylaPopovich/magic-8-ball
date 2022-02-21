@@ -27,3 +27,4 @@ function eightBallResponse() {
 }
 
 let inputName = document.getElementsByClassName('input');
+let inputMessage = document.getElementsByClassName('textarea');
